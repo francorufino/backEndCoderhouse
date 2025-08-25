@@ -10,7 +10,7 @@ const productId = "6807d421f53d7ecf75ea2287";
 
 before(async () => {
   try {
-    await mongoose.connect(atlas_db_connection_string); // TO DO TODO : CADE O ENV
+    await mongoose.connect(atlas_db_connection_string); 
     console.log("Connected to MongoDB");
   } catch (error) {
     console.error("Error connecting to MongoDB:", error);
