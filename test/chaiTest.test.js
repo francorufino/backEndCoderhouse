@@ -4,9 +4,9 @@ import Carts from "./dao/Carts.dao.js";
 import Products from "./dao/Products.dao.js";
 
 const atlas_db_connection_string =
-  "mongodb+srv://admin:admin@backendcoderhouse.o9csx.mongodb.net/ecommerce?retryWrites=true&w=majority&appName=BackEndCoderhouse";
-const userId = "68ab9bc65534d4bff3590979";
-const productId = "68a39a2845ec4368a37815e9";
+  "mongodb+srv://campbellandreza:campbellandreza@cluster0.ebjvo9q.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+const userId = "68aa09290d4102d20ac9181d";
+const productId = "6807d421f53d7ecf75ea2287";
 
 before(async () => {
   try {
